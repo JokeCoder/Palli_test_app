@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7E3A02ACD95D00CB840EC0E /* Pods_Palli_Test_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB586CEADBC39BCD65C5EEBC /* Pods_Palli_Test_App.framework */; };
+		DC3741D926BD8B2100AB8AD5 /* BooksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3741D726BD8B2100AB8AD5 /* BooksTableViewCell.swift */; };
+		DC3741DA26BD8B2100AB8AD5 /* BooksTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC3741D826BD8B2100AB8AD5 /* BooksTableViewCell.xib */; };
 		DCDAA87F26BD4284005675A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAA87E26BD4284005675A3 /* AppDelegate.swift */; };
-		DCDAA88126BD4284005675A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAA88026BD4284005675A3 /* SceneDelegate.swift */; };
-		DCDAA88326BD4284005675A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAA88226BD4284005675A3 /* ViewController.swift */; };
-		DCDAA88626BD4284005675A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDAA88426BD4284005675A3 /* Main.storyboard */; };
 		DCDAA88826BD4285005675A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDAA88726BD4285005675A3 /* Assets.xcassets */; };
 		DCDAA88B26BD4285005675A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDAA88926BD4285005675A3 /* LaunchScreen.storyboard */; };
+		DCDAA89826BD5070005675A3 /* BooksContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAA89726BD5070005675A3 /* BooksContract.swift */; };
+		DCDAA89A26BD507A005675A3 /* BooksPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAA89926BD507A005675A3 /* BooksPresenter.swift */; };
+		DCDAA89C26BD508C005675A3 /* BooksRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAA89B26BD508C005675A3 /* BooksRouter.swift */; };
+		DCDAA89E26BD5099005675A3 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAA89D26BD5099005675A3 /* BooksViewController.swift */; };
+		DCDAA8A026BD50A8005675A3 /* BooksInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAA89F26BD50A8005675A3 /* BooksInteractor.swift */; };
+		DCDAA8A226BD54DE005675A3 /* BookDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAA8A126BD54DE005675A3 /* BookDetailRouter.swift */; };
+		DCDAA8A426BD554A005675A3 /* BookDetailContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAA8A326BD554A005675A3 /* BookDetailContract.swift */; };
+		DCDAA8A626BD555B005675A3 /* BookDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAA8A526BD555B005675A3 /* BookDetailPresenter.swift */; };
+		DCDAA8A826BD557A005675A3 /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAA8A726BD557A005675A3 /* BookDetailViewController.swift */; };
+		DCDAA8AA26BD5586005675A3 /* BookDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAA8A926BD5586005675A3 /* BookDetailInteractor.swift */; };
+		DCDAA8AD26BD5909005675A3 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAA8AC26BD5909005675A3 /* Books.swift */; };
+		DCDAA8AF26BD5C46005675A3 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAA8AE26BD5C46005675A3 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F2CF8DC016D4AFE6468EAED /* Pods-Palli Test App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Palli Test App.release.xcconfig"; path = "Target Support Files/Pods-Palli Test App/Pods-Palli Test App.release.xcconfig"; sourceTree = "<group>"; };
+		A3C22DCAF1EBBA7F2F0D4DE6 /* Pods-Palli Test App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Palli Test App.debug.xcconfig"; path = "Target Support Files/Pods-Palli Test App/Pods-Palli Test App.debug.xcconfig"; sourceTree = "<group>"; };
+		DC3741CF26BD853E00AB8AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3741D726BD8B2100AB8AD5 /* BooksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTableViewCell.swift; sourceTree = "<group>"; };
+		DC3741D826BD8B2100AB8AD5 /* BooksTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BooksTableViewCell.xib; sourceTree = "<group>"; };
 		DCDAA87B26BD4283005675A3 /* Palli Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Palli Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDAA87E26BD4284005675A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCDAA88026BD4284005675A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DCDAA88226BD4284005675A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DCDAA88526BD4284005675A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCDAA88726BD4285005675A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCDAA88A26BD4285005675A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DCDAA88C26BD4285005675A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDAA89726BD5070005675A3 /* BooksContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksContract.swift; sourceTree = "<group>"; };
+		DCDAA89926BD507A005675A3 /* BooksPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksPresenter.swift; sourceTree = "<group>"; };
+		DCDAA89B26BD508C005675A3 /* BooksRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksRouter.swift; sourceTree = "<group>"; };
+		DCDAA89D26BD5099005675A3 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		DCDAA89F26BD50A8005675A3 /* BooksInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksInteractor.swift; sourceTree = "<group>"; };
+		DCDAA8A126BD54DE005675A3 /* BookDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailRouter.swift; sourceTree = "<group>"; };
+		DCDAA8A326BD554A005675A3 /* BookDetailContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailContract.swift; sourceTree = "<group>"; };
+		DCDAA8A526BD555B005675A3 /* BookDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailPresenter.swift; sourceTree = "<group>"; };
+		DCDAA8A726BD557A005675A3 /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		DCDAA8A926BD5586005675A3 /* BookDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailInteractor.swift; sourceTree = "<group>"; };
+		DCDAA8AC26BD5909005675A3 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		DCDAA8AE26BD5C46005675A3 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		EB586CEADBC39BCD65C5EEBC /* Pods_Palli_Test_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Palli_Test_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7E3A02ACD95D00CB840EC0E /* Pods_Palli_Test_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C015E20796C8A4BF165F8B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3C22DCAF1EBBA7F2F0D4DE6 /* Pods-Palli Test App.debug.xcconfig */,
+				2F2CF8DC016D4AFE6468EAED /* Pods-Palli Test App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC3741D626BD8B0500AB8AD5 /* BooksTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DC3741D726BD8B2100AB8AD5 /* BooksTableViewCell.swift */,
+				DC3741D826BD8B2100AB8AD5 /* BooksTableViewCell.xib */,
+			);
+			path = BooksTableViewCell;
+			sourceTree = "<group>";
+		};
 		DCDAA87226BD4283005675A3 = {
 			isa = PBXGroup;
 			children = (
 				DCDAA87D26BD4283005675A3 /* Palli Test App */,
 				DCDAA87C26BD4283005675A3 /* Products */,
+				3C015E20796C8A4BF165F8B1 /* Pods */,
+				E80B7F82FD523F8421895E2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +103,81 @@
 		DCDAA87D26BD4283005675A3 /* Palli Test App */ = {
 			isa = PBXGroup;
 			children = (
-				DCDAA87E26BD4284005675A3 /* AppDelegate.swift */,
-				DCDAA88026BD4284005675A3 /* SceneDelegate.swift */,
-				DCDAA88226BD4284005675A3 /* ViewController.swift */,
-				DCDAA88426BD4284005675A3 /* Main.storyboard */,
-				DCDAA88726BD4285005675A3 /* Assets.xcassets */,
-				DCDAA88926BD4285005675A3 /* LaunchScreen.storyboard */,
-				DCDAA88C26BD4285005675A3 /* Info.plist */,
+				DCDAA89326BD4FC1005675A3 /* App */,
+				DCDAA89426BD5012005675A3 /* Modules */,
+				DCDAA8AB26BD58F8005675A3 /* Common */,
+				DCDAA89226BD4F92005675A3 /* Other */,
 			);
 			path = "Palli Test App";
+			sourceTree = "<group>";
+		};
+		DCDAA89226BD4F92005675A3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DCDAA88926BD4285005675A3 /* LaunchScreen.storyboard */,
+				DCDAA88726BD4285005675A3 /* Assets.xcassets */,
+				DC3741CF26BD853E00AB8AD5 /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DCDAA89326BD4FC1005675A3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DCDAA87E26BD4284005675A3 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DCDAA89426BD5012005675A3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DCDAA89526BD5020005675A3 /* BooksMain */,
+				DCDAA89626BD503A005675A3 /* BookDetail */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DCDAA89526BD5020005675A3 /* BooksMain */ = {
+			isa = PBXGroup;
+			children = (
+				DCDAA89726BD5070005675A3 /* BooksContract.swift */,
+				DCDAA89926BD507A005675A3 /* BooksPresenter.swift */,
+				DCDAA89B26BD508C005675A3 /* BooksRouter.swift */,
+				DCDAA89D26BD5099005675A3 /* BooksViewController.swift */,
+				DCDAA89F26BD50A8005675A3 /* BooksInteractor.swift */,
+			);
+			path = BooksMain;
+			sourceTree = "<group>";
+		};
+		DCDAA89626BD503A005675A3 /* BookDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DCDAA8A326BD554A005675A3 /* BookDetailContract.swift */,
+				DCDAA8A526BD555B005675A3 /* BookDetailPresenter.swift */,
+				DCDAA8A126BD54DE005675A3 /* BookDetailRouter.swift */,
+				DCDAA8A726BD557A005675A3 /* BookDetailViewController.swift */,
+				DCDAA8A926BD5586005675A3 /* BookDetailInteractor.swift */,
+			);
+			path = BookDetail;
+			sourceTree = "<group>";
+		};
+		DCDAA8AB26BD58F8005675A3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DC3741D626BD8B0500AB8AD5 /* BooksTableViewCell */,
+				DCDAA8AC26BD5909005675A3 /* Books.swift */,
+				DCDAA8AE26BD5C46005675A3 /* APIManager.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E80B7F82FD523F8421895E2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB586CEADBC39BCD65C5EEBC /* Pods_Palli_Test_App.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCDAA88F26BD4285005675A3 /* Build configuration list for PBXNativeTarget "Palli Test App" */;
 			buildPhases = (
+				274851A0C71FDE52A4ED38D9 /* [CP] Check Pods Manifest.lock */,
 				DCDAA87726BD4283005675A3 /* Sources */,
 				DCDAA87826BD4283005675A3 /* Frameworks */,
 				DCDAA87926BD4283005675A3 /* Resources */,
+				6A6ECF1613BE5BFC514D0A52 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +240,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3741DA26BD8B2100AB8AD5 /* BooksTableViewCell.xib in Resources */,
 				DCDAA88B26BD4285005675A3 /* LaunchScreen.storyboard in Resources */,
 				DCDAA88826BD4285005675A3 /* Assets.xcassets in Resources */,
-				DCDAA88626BD4284005675A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		274851A0C71FDE52A4ED38D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Palli Test App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A6ECF1613BE5BFC514D0A52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Palli Test App/Pods-Palli Test App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Palli Test App/Pods-Palli Test App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Palli Test App/Pods-Palli Test App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DCDAA87726BD4283005675A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCDAA88326BD4284005675A3 /* ViewController.swift in Sources */,
+				DCDAA8AD26BD5909005675A3 /* Books.swift in Sources */,
+				DCDAA8A026BD50A8005675A3 /* BooksInteractor.swift in Sources */,
+				DCDAA8A426BD554A005675A3 /* BookDetailContract.swift in Sources */,
+				DCDAA89A26BD507A005675A3 /* BooksPresenter.swift in Sources */,
+				DCDAA8A826BD557A005675A3 /* BookDetailViewController.swift in Sources */,
+				DCDAA8A626BD555B005675A3 /* BookDetailPresenter.swift in Sources */,
+				DC3741D926BD8B2100AB8AD5 /* BooksTableViewCell.swift in Sources */,
 				DCDAA87F26BD4284005675A3 /* AppDelegate.swift in Sources */,
-				DCDAA88126BD4284005675A3 /* SceneDelegate.swift in Sources */,
+				DCDAA8A226BD54DE005675A3 /* BookDetailRouter.swift in Sources */,
+				DCDAA89C26BD508C005675A3 /* BooksRouter.swift in Sources */,
+				DCDAA89826BD5070005675A3 /* BooksContract.swift in Sources */,
+				DCDAA8AF26BD5C46005675A3 /* APIManager.swift in Sources */,
+				DCDAA8AA26BD5586005675A3 /* BookDetailInteractor.swift in Sources */,
+				DCDAA89E26BD5099005675A3 /* BooksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DCDAA88426BD4284005675A3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCDAA88526BD4284005675A3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DCDAA88926BD4285005675A3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,19 +444,20 @@
 		};
 		DCDAA89026BD4285005675A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C22DCAF1EBBA7F2F0D4DE6 /* Pods-Palli Test App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 96T58X7Y46;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Palli Test App/Info.plist";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "/Users/coder/Desktop/Palli Test App/Palli Test App/Other/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,19 +473,20 @@
 		};
 		DCDAA89126BD4285005675A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2CF8DC016D4AFE6468EAED /* Pods-Palli Test App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 96T58X7Y46;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Palli Test App/Info.plist";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "/Users/coder/Desktop/Palli Test App/Palli Test App/Other/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
